@@ -2,12 +2,12 @@
 
 Fait en coopération : Durand Ulysse et Gardelle Samuel.
 
-Le projet qui suit est une tentative de construction d'un processeur. On l'a réalisé sans connaissance préalable sur le sujet. On s'est inspiré d'une série de (Ben Eater)[https://www.youtube.com/watch?v=HyznrdDSSGM&list=PLowKtXNTBypGqImE405J2565dvjafglHU] qui construit un ordinateur 8-bit sur des breadboards et explique son architecture.
+Le projet qui suit est une tentative de construction d'un processeur. On l'a réalisé sans connaissance préalable sur le sujet. On s'est inspiré d'une série de [Ben Eater](https://www.youtube.com/watch?v=HyznrdDSSGM&list=PLowKtXNTBypGqImE405J2565dvjafglHU) qui construit un ordinateur 8-bit sur des breadboards et explique son architecture.
 
 On a construit :
 - un assembleur qui transforme des instructions en code machine (en Awk).
 - un système de macro qui permet de transformer les macros en plusieurs lignes d'assembleur (en Awk)
-- le cicrcuit chargé d'exécuter le code machine (avec Logisim). Il y persiste des bugs.
+- le circuit chargé d'exécuter le code machine (avec Logisim). Il y persiste des bugs.
 
 # Jeu d'instruction
 
@@ -17,7 +17,7 @@ Il y a 4 instructions :
 - write: Écrit une valeur de 8 bits dans le registre R3.
 - move: Déplace une valeur d'un registre à un autre.
 - jump: Change l'adresse du program counter.
-- if jump: Effectue l'opération suivante si le register a pour valeur 1.
+- if jump: Effectue l'opération précédente si le registre donné a pour valeur 1.
 
 Il n'y a pas d'interrupt ou de système qui permette de réagir à des actions extérieurs.
 
