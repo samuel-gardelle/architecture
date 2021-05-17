@@ -1,0 +1,7 @@
+
+write 00000001
+move r3 add_a
+move r3 add_b
+
+move add add_a
+jump 0000000100

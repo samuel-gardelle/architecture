@@ -1,0 +1,30 @@
+
+# Sources
+I : immediate
+A : Ram no.1
+B : Ram no.2
+
+# Targets
+A : Ram no.1
+B : Ram no.2
+
+# Instructions
+
+## Adder
+<source> + <source> => <target>
+(binaire)
+
+## Shifter
+<source> >> <source> => <target>
+(unaire)
+
+## RAM
+
+### Set address
+addr <target> <source>
+Sets address of RAM target to value <source>
+
+## Branching
+
+### Jump
+jump <source>
